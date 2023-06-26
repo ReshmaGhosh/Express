@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "andrea",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch \"src/*\" --ext \"ts,json\" --ignore \"src//.spec.ts\" --exec \"ts-node src/app.ts\""
+  }
 }
